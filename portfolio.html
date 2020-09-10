@@ -12,20 +12,21 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="cover.html">Kayla B. Newlon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+        <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <section class="navbar-nav">
                 <a class="nav-item nav-link active" href="index.html">About</a>
                 <a class="nav-item nav-link active" href="contact.html">Contact</a>
                 <a class="nav-item nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-            </div>
-        </div>
+            </section>
+        </section>
     </nav>
+
     <main class="container">
 
         <br><br>
@@ -34,44 +35,61 @@
 
 
         <br><br>
+
         <!-- Cards to display best works -->
-        <div class="card-group">
-            <div class="card">
-                <img class="card-img-top" src="Assets\skydiving.JPG" alt="Skydiving">
-                <div class="card-body">
+        <cards class="card-group">
+            <one class="card">
+                <img class="card-img-top" src="assets\skydiving.JPG" alt="Skydiving">
+                <section class="card-body">
                     <h5 class="card-title">Best Works #1</h5>
                     <p class="card-text">Just a quick description of this project.</p>
                     <p class="card-text"><small class="text-muted">Last updated 9.8.2020</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="Assets\skydiving.JPG" alt="Skydiving">
-                <div class="card-body">
+                </section>
+            </one>
+            <two class="card">
+                <img class="card-img-top" src="assets\skydiving.JPG" alt="Skydiving">
+                <section class="card-body">
                     <h5 class="card-title">Best Works #2</h5>
                     <p class="card-text">Just a quick description of this project.</p>
                     <p class="card-text"><small class="text-muted">Last updated 9.8.2020</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="Assets\skydiving.JPG" alt="Skydiving">
-                <div class="card-body">
+                </section>
+            </two>
+            <three class="card">
+                <img class="card-img-top" src="assets\skydiving.JPG" alt="Skydiving">
+                <section class="card-body">
                     <h5 class="card-title">Best Works #3</h5>
                     <p class="card-text">Just a quick description of this project.</p>
                     <p class="card-text"><small class="text-muted">Last updated 9.8.2020</small></p>
-                </div>
-            </div>
-        </div>
+                </section>
+            </three>
+        </cards>
 
 
 
 
     </main>
+    <!--  Footer -->
 
-
-
+    <footer class="footer">
+        <section class="container">
+            <span class="text-muted">Seattle. Full-Stack Developer 253.561.1234</span>
+        </section>
+    </footer>
 
 
 
 </body>
+<!--  Enables Hamburder Nav -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
+
+    
 </html>
